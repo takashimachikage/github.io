@@ -8,3 +8,27 @@
 background-color: #00FF00; /*緑色*/
 }
 }
+
+.nogiwakaba , .uesatohinata , .takashimayuuna , .koorichikage , .doitamako , .iyojimaannzu{
+  font-size: 25px;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+.nogiwakaba{
+  border-bottom: 5px solid blue;
+}
+.uesatohinata{
+  border-bottom: 5px solid purple;
+}
+.takashimayuuna{
+  border-bottom: 5px solid pink;
+}
+.koorichikage{
+  border-bottom: 5px solid red;
+}
+.doitamako{
+  border-bottom: 5px solid orange;
+}
+.iyojimaannzu{
+  border-bottom: 5px solid yellow;
+}
