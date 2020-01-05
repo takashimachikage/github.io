@@ -1,8 +1,31 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+.header{
+  color: white;
+  background-color:#99FFFF;
+  height: 90px;
+}
+
 .header-logo {
   font-size: 30px;
-  background:20px;
-  color :white;
-  background-color:#99FFFF;
+  float: left;
+  padding:20px 30px;
+}
+.header-list li{
+  list-style: none;
+  float: left;
+  padding:30px 40px;
+  font-size:25px;
 }
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
 #menu-bg {
@@ -18,19 +41,25 @@ background-color: #00FF00; /*緑色*/
 }
 .nogiwakaba{
   border-bottom: 5px solid blue;
+  margin-bottom: 50px;
 }
 .uesatohinata{
   border-bottom: 5px solid purple;
+  margin-bottom: 50px;
 }
 .takashimayuuna{
   border-bottom: 5px solid pink;
+  margin-bottom: 50px;
 }
 .koorichikage{
   border-bottom: 5px solid red;
+  margin-bottom: 50px;
 }
 .doitamako{
   border-bottom: 5px solid orange;
+  margin-bottom: 50px;
 }
 .iyojimaannzu{
   border-bottom: 5px solid yellow;
+  margin-bottom: 50px;
 }
